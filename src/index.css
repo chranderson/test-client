@@ -13,13 +13,8 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background-color: #364860;
-  background-image: linear-gradient(
-    0deg,
-    #2a3749 0%,
-    #364860 30%,
-    #4f6b89 100%
-  );
+  /* background-color: #364860; */
+  background: linear-gradient(0deg, #2a3749 0%, #364860 60%, #4f6b89 100%);
 }
 
 code {

@@ -4,6 +4,7 @@ import './App.css';
 // import { Logo } from '@chranderson/ui';
 // import * as UIComponents from '@chranderson/ui';
 import { Logo } from './Logo/index';
+// import { Loader } from './Loader/index';
 
 // console.log(UIComponents);
 
@@ -12,6 +13,7 @@ function App() {
     <div className="App">
       {/* <DingDong /> */}
       <Logo />
+
       {/* <Loader show message="doin' a 'lil something.." /> */}
     </div>
   );
