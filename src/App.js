@@ -1,23 +1,18 @@
-import logo from './logo.svg';
 import './App.css';
+// import { Loader } from '@chranderson/ui';
+// import { DingDong } from '@chranderson/ui';
+// import { Logo } from '@chranderson/ui';
+// import * as UIComponents from '@chranderson/ui';
+import { Logo } from './Logo/index';
+
+// console.log(UIComponents);
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      {/* <DingDong /> */}
+      <Logo />
+      {/* <Loader show message="doin' a 'lil something.." /> */}
     </div>
   );
 }
